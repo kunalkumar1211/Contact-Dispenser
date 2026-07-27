@@ -1,0 +1,13 @@
+Things asked in Serial Bluetooth Terminal
+xLen, yLen, zLen : in stepper steps
+stepsBtwDroplets : steps between droplet
+pumpsteps	 : syringe pump (Nema17) steps
+dropDelay	 : wait for the fluid to come out by holding the needle at the substrate surface
+
+for xy 40mm/6400steps X (int from bluetooth in steps) = **mm
+gt2 (2mm spacing) belt, 20teeth pulley = 40mm in one complete rotation
+Nema17 , 200steps X 32 (microstepping) = 6400 steps
+
+for z 3mm/640steps X (int from bluetooth in steps) = **mm
+3mm lead screw, = 3mm in one complete rotation
+Stepper motor from optical HDD, 20steps X 32 (microstepping) = 640 steps
